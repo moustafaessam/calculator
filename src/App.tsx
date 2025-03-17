@@ -4,8 +4,7 @@ import { darkTheme } from "./Global Styling/theme";
 import { GlobalStyling } from "./Global Styling/global";
 import Header from "./components/header/Header";
 import Result from "./components/result/Result";
-import ButtonsContainer from "./components/buttonsContainer/buttonsContainer";
-
+import ButtonsContainer from "./components/buttonsContainerFolder/ButtonsContainer";
 export default function App() {
   const [theme, setTheme] = useState(darkTheme);
   const [result, setResult] = useState<string | string[]>([]);
