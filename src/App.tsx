@@ -8,7 +8,6 @@ import ButtonsContainer from "./components/buttonsContainerFolder/ButtonsContain
 export default function App() {
   const [theme, setTheme] = useState(darkTheme);
   const [result, setResult] = useState<string | string[]>([]);
-  console.log(result);
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyling />
