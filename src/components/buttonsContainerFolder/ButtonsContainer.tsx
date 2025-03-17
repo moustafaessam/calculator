@@ -1,7 +1,7 @@
 import {
   StyledButton,
   StyledButtonsMainContainer,
-} from "./buttonsContainer.styles";
+} from "./ButtonsContainer.styles";
 import { buttons } from "./buttonsData";
 import { handleResult } from "./utils";
 
